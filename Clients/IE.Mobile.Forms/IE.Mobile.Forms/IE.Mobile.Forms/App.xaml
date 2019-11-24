@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cm:FormsApplication xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+                    xmlns:converters="clr-namespace:IE.Mobile.Forms.ValueConverters"
+                     xmlns:boot="clr-namespace:IE.Mobile.Forms;assembly=IE.Mobile.Forms"
+               xmlns:cm="clr-namespace:Caliburn.Micro.Xamarin.Forms;assembly=Caliburn.Micro.Platform.Xamarin.Forms"
+                         xmlns:mtrl="clr-namespace:XF.Material.Forms.Resources;assembly=XF.Material"
+    xmlns:mtrltypo="clr-namespace:XF.Material.Forms.Resources.Typography;assembly=XF.Material"
+             x:Class="IE.Mobile.Forms.App">
+    <Application.Resources>
+        <!--Write any Resources here from Colours, etc-->
+        <!--Fonts-->
+        <converters:ImageSourceConverter x:Key="imageConverter" />
+
+        <Color x:Key="DarkTheme.Button">#3e65fe</Color>
+        <Color x:Key="DarkTheme.NavBarBackground">#15202b</Color>
+        <Color x:Key="DarkTheme.NavBarTextColour">#1a546c</Color>
+        <Color x:Key="DarkTheme.Background">#15202b</Color>
+        <Color x:Key="DarkTheme.Section">#f2f3f3</Color>
+        <Color x:Key="DarkTheme.TextColour">#8899a6</Color>
+        <Color x:Key="DarkTheme.ErrorTextColor">#f97170</Color>
+        <Color x:Key="DarkTheme.DashboardBackground">#15202b</Color>
+        <Color x:Key="DarkTheme.NavigationDrawer">#ffffff</Color>
+
+        <OnPlatform x:TypeArguments="x:String" x:Key="RoboticoThin">
+            <On Platform="Android" Value="Roboto-Thin.ttf#Roboto-Thin" />
+            <On Platform="UWP" Value="/Assets/Roboto-Thin.ttf#Roboto-Thin" />
+            <On Platform="iOS" Value="Roboto-Thin" />
+        </OnPlatform>
+
+        <OnPlatform x:TypeArguments="x:String" x:Key="RoboticoLight">
+            <On Platform="Android" Value="Roboto-Light.ttf#Roboto-Light" />
+            <On Platform="UWP" Value="/Assets/Roboto-Light.ttf#Roboto-Light" />
+            <On Platform="iOS" Value="Roboto-Light" />
+        </OnPlatform>
+
+        <OnPlatform x:TypeArguments="x:String" x:Key="RoboticoRegular">
+            <On Platform="Android" Value="Roboto-Regular.ttf#Roboto-Regular" />
+            <On Platform="UWP" Value="/Assets/Roboto-Regular.ttf#Roboto-Regular" />
+            <On Platform="iOS" Value="Roboto-Regular" />
+        </OnPlatform>
+
+        <OnPlatform x:TypeArguments="x:String" x:Key="FontFamily.RobotoRegular">
+            <On Platform="Android" Value="Roboto-Regular.ttf#Roboto-Regular" />
+            <On Platform="UWP" Value="/Assets/Roboto-Regular.ttf#Roboto-Regular" />
+            <On Platform="iOS" Value="Roboto-Regular" />
+        </OnPlatform>
+
+        <OnPlatform x:TypeArguments="x:String" x:Key="FontFamily.RoboticoBold">
+            <On Platform="Android" Value="Roboto-Bold.ttf#Roboto-Bold" />
+            <On Platform="UWP" Value="/Assets/Roboto-Bold.ttf#Roboto-Bold" />
+            <On Platform="iOS" Value="Roboto-Bold" />
+        </OnPlatform>
+
+        <mtrltypo:MaterialFontConfiguration x:Key="Material.Font"
+            Body1="{StaticResource FontFamily.RobotoRegular}"
+            Body2="{StaticResource FontFamily.RobotoRegular}"
+            Button="{StaticResource FontFamily.RoboticoBold}"
+            Caption="{StaticResource FontFamily.RobotoRegular}"
+            H1="{StaticResource FontFamily.RobotoRegular}"
+            H2="{StaticResource FontFamily.RobotoRegular}"
+            H3="{StaticResource FontFamily.RobotoRegular}"
+            H4="{StaticResource FontFamily.RobotoRegular}"
+            H5="{StaticResource FontFamily.RobotoRegular}"
+            H6="{StaticResource FontFamily.RoboticoBold}"
+            Overline="{StaticResource FontFamily.RobotoRegular}"
+            Subtitle1="{StaticResource FontFamily.RobotoRegular}"
+            Subtitle2="{StaticResource FontFamily.RoboticoBold}" />
+
+        <mtrl:MaterialColorConfiguration x:Key="Material.Color"
+            Background="#EAEAEA"
+            Error="#B00020"
+            OnBackground="#000000"
+            OnError="#FFFFFF"
+            OnPrimary="#FFFFFF"
+            OnSecondary="#FFFFFF"
+            OnSurface="#000000"
+            Primary="#011A27"
+            PrimaryVariant="#000000"
+            Secondary="#063852"
+            SecondaryVariant="#001229"
+            Surface="#FFFFFF" />
+
+        <mtrl:MaterialConfiguration x:Key="Material.Configuration"
+            ColorConfiguration="{StaticResource Material.Color}" 
+            FontConfiguration="{StaticResource Material.Font}" />
+    </Application.Resources>
+</cm:FormsApplication>

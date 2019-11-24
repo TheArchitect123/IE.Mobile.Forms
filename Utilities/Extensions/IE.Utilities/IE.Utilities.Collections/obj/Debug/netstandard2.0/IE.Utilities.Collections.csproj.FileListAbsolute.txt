@@ -1,0 +1,8 @@
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Collections\bin\Debug\netstandard2.0\IE.Utilities.Collections.deps.json
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Collections\bin\Debug\netstandard2.0\IE.Utilities.Collections.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Collections\bin\Debug\netstandard2.0\IE.Utilities.Collections.pdb
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Collections\obj\Debug\netstandard2.0\IE.Utilities.Collections.csprojAssemblyReference.cache
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Collections\obj\Debug\netstandard2.0\IE.Utilities.Collections.AssemblyInfoInputs.cache
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Collections\obj\Debug\netstandard2.0\IE.Utilities.Collections.AssemblyInfo.cs
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Collections\obj\Debug\netstandard2.0\IE.Utilities.Collections.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Collections\obj\Debug\netstandard2.0\IE.Utilities.Collections.pdb

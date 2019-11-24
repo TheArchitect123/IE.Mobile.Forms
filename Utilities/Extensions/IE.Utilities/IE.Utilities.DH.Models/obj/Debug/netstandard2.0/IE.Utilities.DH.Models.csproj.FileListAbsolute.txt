@@ -1,0 +1,8 @@
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DH.Models\bin\Debug\netstandard2.0\IE.Utilities.DH.Models.deps.json
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DH.Models\bin\Debug\netstandard2.0\IE.Utilities.DH.Models.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DH.Models\bin\Debug\netstandard2.0\IE.Utilities.DH.Models.pdb
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DH.Models\obj\Debug\netstandard2.0\IE.Utilities.DH.Models.csprojAssemblyReference.cache
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DH.Models\obj\Debug\netstandard2.0\IE.Utilities.DH.Models.AssemblyInfoInputs.cache
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DH.Models\obj\Debug\netstandard2.0\IE.Utilities.DH.Models.AssemblyInfo.cs
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DH.Models\obj\Debug\netstandard2.0\IE.Utilities.DH.Models.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DH.Models\obj\Debug\netstandard2.0\IE.Utilities.DH.Models.pdb

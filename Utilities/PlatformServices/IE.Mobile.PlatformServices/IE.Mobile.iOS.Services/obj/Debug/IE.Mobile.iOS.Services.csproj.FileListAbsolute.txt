@@ -1,0 +1,13 @@
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\bin\Debug\IE.Mobile.iOS.Services.dll
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\bin\Debug\IE.Mobile.iOS.Services.pdb
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\bin\Debug\IE.Utilities.Common.dll
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\bin\Debug\IE.Utilities.Constants.dll
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\bin\Debug\IE.Utilities.Extensions.dll
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\bin\Debug\IE.Utilities.Common.pdb
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\bin\Debug\IE.Utilities.Constants.pdb
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\bin\Debug\IE.Utilities.Extensions.pdb
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\obj\Debug\optimized\
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\obj\Debug\IE.Mobile.iOS.Services.csprojAssemblyReference.cache
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\obj\Debug\IE.Mobile.iOS.Services.csproj.CopyComplete
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\obj\Debug\IE.Mobile.iOS.Services.dll
+C:\Alexander\IE\Mobile\Utilities\PlatformServices\IE.Mobile.PlatformServices\IE.Mobile.iOS.Services\obj\Debug\IE.Mobile.iOS.Services.pdb

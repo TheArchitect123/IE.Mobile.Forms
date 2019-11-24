@@ -1,0 +1,8 @@
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.EFCore\bin\Debug\netstandard2.0\IE.MobileStorage.EFCore.deps.json
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.EFCore\bin\Debug\netstandard2.0\IE.MobileStorage.EFCore.dll
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.EFCore\bin\Debug\netstandard2.0\IE.MobileStorage.EFCore.pdb
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.EFCore\obj\Debug\netstandard2.0\IE.MobileStorage.EFCore.csprojAssemblyReference.cache
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.EFCore\obj\Debug\netstandard2.0\IE.MobileStorage.EFCore.AssemblyInfoInputs.cache
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.EFCore\obj\Debug\netstandard2.0\IE.MobileStorage.EFCore.AssemblyInfo.cs
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.EFCore\obj\Debug\netstandard2.0\IE.MobileStorage.EFCore.dll
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.EFCore\obj\Debug\netstandard2.0\IE.MobileStorage.EFCore.pdb

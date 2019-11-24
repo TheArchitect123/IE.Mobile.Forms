@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                xmlns:controls="clr-namespace:IE.Mobile.Forms.Controls"
+             xmlns:views="clr-namespace:IE.Mobile.Forms.Views"
+                xmlns:caliburn="clr-namespace:Caliburn.Micro.Xamarin.Forms;assembly=Caliburn.Micro.Platform.Xamarin.Forms"
+                xmlns:renderers="clr-namespace:IE.Mobile.Forms.CustomRenderers"
+                  xmlns:transformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+                           xmlns:imageRenderer="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+                xmlns:packman="clr-namespace:IE.Mobile.Forms.Controls"
+                xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
+                xmlns:navigationdrawer="clr-namespace:Syncfusion.SfNavigationDrawer.XForms;assembly=Syncfusion.SfNavigationDrawer.XForms"
+                xmlns:materialControls="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             x:Class="IE.Mobile.Forms.Views.PackmanPageView"
+                BackgroundColor="{StaticResource Key=DarkTheme.Background}">
+    <navigationdrawer:SfNavigationDrawer x:Name="packmanDrawer" Transition="Push" IsOpen="{Binding OpenDrawer, Mode=TwoWay}"
+                                         DrawerHeaderHeight="0" TouchThreshold="70" DrawerWidth="240" EnableSwipeGesture="True">
+        <navigationdrawer:SfNavigationDrawer.ContentView>
+            <StackLayout Orientation="Vertical" Spacing="0">
+                <controls:MainPageNavigation/>
+                <BoxView Color="White" HeightRequest="0.5"/>
+                <tabView:SfTabView VisibleHeaderCount="2" SelectedIndex="{Binding TabPosition, Mode=TwoWay}" SelectionChanged="PositionTabBar_SelectionChanged"
+            x:Name="PositionTabBar" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" OverflowMode="Scroll"
+                       TabHeaderPosition="Top" BackgroundColor="{StaticResource Key=DarkTheme.Background}">
+                    <tabView:SfTabView.SelectionIndicatorSettings>
+                        <tabView:SelectionIndicatorSettings
+                    Color="{StaticResource Key=DarkTheme.Button}" 
+                    Position="Bottom" 
+                    StrokeThickness="2"/>
+                    </tabView:SfTabView.SelectionIndicatorSettings>
+
+                    <tabView:SfTabItem Title="Packman" TitleFontColor="{StaticResource Key=DarkTheme.TextColour}" TitleFontFamily="{StaticResource Key=RoboticoRegular}" TitleFontSize="18" SelectionColor="White">
+                        <tabView:SfTabItem.Content>
+                            <RelativeLayout x:Name="PackmanLayout" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" IsEnabled="True">
+                                <StackLayout Orientation="Vertical" 
+                                                   RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-100}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0, Constant=5}"
+                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=100}"
+                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0, Constant=100}"
+                                                 
+                                                 IsVisible="{Binding IsStatusVisible, Mode=OneWay}">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="X: " FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.TextColour}"/>
+                                        <Label Text="{Binding XPosition, Mode=TwoWay}" FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.Section}"/>
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Y: " FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.TextColour}"/>
+                                        <Label Text="{Binding YPosition, Mode=TwoWay}" FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.Section}"/>
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="F: " FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.TextColour}"/>
+                                        <Label Text="{Binding SelectedDirection, Mode=TwoWay}" FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.Section}"/>
+                                    </StackLayout>
+                                </StackLayout>
+
+                                <StackLayout RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=0}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-120}"
+                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=0}" IsEnabled="True"
+                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0, Constant=110}" Orientation="Vertical">
+                                    <materialControls:MaterialButton
+                                        TextColor="LightGray" BorderColor="Blue" Clicked="MovePackmanByClicked"
+                                                                         Text="MOVE" HeightRequest="50"/>
+                                    <StackLayout
+                                                   
+                                                   Orientation="Horizontal" IsEnabled="True">
+                                        <materialControls:MaterialButton TextColor="LightGray" BorderColor="LightGray" Clicked="RotatePackmanLeftDegrees"
+                                                                         Text="LEFT" HorizontalOptions="StartAndExpand" WidthRequest="100" HeightRequest="50"/>
+                                        <materialControls:MaterialButton TextColor="Red" BorderColor="Red" Text="REPORT" HorizontalOptions="CenterAndExpand" WidthRequest="120" 
+                                                                         Command="{Binding IOpenReport, Mode=OneWay}" HeightRequest="50"/>
+                                        <materialControls:MaterialButton TextColor="LightGray" BorderColor="LightGray" Clicked="RotatePackmanRightDegrees" 
+                                                                         Text="RIGHT" HorizontalOptions="EndAndExpand" WidthRequest="100" HeightRequest="50"/>
+                                    </StackLayout>
+                                </StackLayout>
+
+                                <packman:PackmanView x:Name="PackmanView"
+                                                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=0}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0, Constant=0}"
+                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=45}"
+                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0, Constant=45}"
+                                                     IsVisible="{Binding IsPackmanVisible, Mode=OneWay}"/>
+                            </RelativeLayout>
+                        </tabView:SfTabItem.Content>
+                    </tabView:SfTabItem>
+
+                    <tabView:SfTabItem Title="Settings" TitleFontColor="{StaticResource Key=DarkTheme.TextColour}" 
+                                               TitleFontFamily="{StaticResource Key=RoboticoRegular}" TitleFontSize="18" SelectionColor="White">
+                        <tabView:SfTabItem.Content>
+                            <renderers:NillSectionSeperatorTableView HasUnevenRows="True">
+                                <TableRoot>
+                                    <TableSection>
+                                        <ViewCell>
+                                            <StackLayout Padding="10" IsEnabled="True" Spacing="10">
+                                                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                                    <Label Text="X Initial Position" FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.Section}"/>
+                                                    <StackLayout Orientation="Vertical" Spacing="2">
+                                                        <materialControls:MaterialSlider x:Name="XPositionView" Value="{Binding XPosition, Mode=TwoWay}" 
+                                                                              ThumbColor="{StaticResource Key=DarkTheme.TextColour}" TrackColor="Red"/>
+                                                        <Label Text="{Binding XPosition, Mode=TwoWay}" FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.Section}"/>
+
+                                                    </StackLayout>
+                                                </StackLayout>
+
+                                                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                                    <Label Text="Y Initial Position" FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.Section}"/>
+                                                    <StackLayout Orientation="Vertical" Spacing="2">
+                                                        <materialControls:MaterialSlider x:Name="YPositionView" Value="{Binding YPosition, Mode=TwoWay}"
+                                                                              ThumbColor="{StaticResource Key=DarkTheme.TextColour}"  TrackColor="Red"/>
+                                                        <Label Text="{Binding YPosition, Mode=TwoWay}" FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.Section}"/>
+                                                    </StackLayout>
+                                                </StackLayout>
+
+                                                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                                    <Label Text="Direction" FontSize="16" FontAttributes="Bold" TextColor="{StaticResource Key=DarkTheme.Section}"/>
+                                                    <Picker x:Name="DirectionsView" Title="{Binding SelectedDirection, Mode=OneWay}" TitleColor="{StaticResource Key=DarkTheme.TextColour}"
+                                                            SelectedIndex="{Binding SelectedDirectionIndex, Mode=TwoWay}"
+                                                            TextColor="{StaticResource Key=DarkTheme.TextColour}" BackgroundColor="Transparent"/>
+                                                </StackLayout>
+
+                                                <materialControls:MaterialButton TextColor="LightGray" Command="{Binding IPlacePackman, Mode=OneWay}"
+                                                                         BorderColor="LightGray" Text="PLACE" HorizontalOptions="CenterAndExpand"
+                                                                         WidthRequest="100"/>
+                                            </StackLayout>
+                                        </ViewCell>
+                                    </TableSection>
+                                </TableRoot>
+                            </renderers:NillSectionSeperatorTableView>
+                        </tabView:SfTabItem.Content>
+                    </tabView:SfTabItem>
+                </tabView:SfTabView>
+            </StackLayout>
+        </navigationdrawer:SfNavigationDrawer.ContentView>
+        <navigationdrawer:SfNavigationDrawer.DrawerContentView>
+            <StackLayout Padding="5" Orientation="Vertical" BackgroundColor="White">
+                <imageRenderer:CachedImage CacheType="Memory" Source="{Binding Avatar, Mode=OneWay, Converter={StaticResource Key=imageConverter}}" BitmapOptimizations="True" DownsampleToViewSize="True" 
+                                               DownsampleUseDipUnits="True" Aspect="AspectFit" 
+                                           HorizontalOptions="StartAndExpand" WidthRequest="45" HeightRequest="45">
+                    <imageRenderer:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding IChangeProfilePicture, Mode=TwoWay}"/>
+                    </imageRenderer:CachedImage.GestureRecognizers>
+                    <imageRenderer:CachedImage.Transformations>
+                        <transformations:CircleTransformation/>
+                    </imageRenderer:CachedImage.Transformations>
+                </imageRenderer:CachedImage>
+
+                <StackLayout Orientation="Vertical" Spacing="2">
+                    <Label
+                FontFamily="{StaticResource Key=FontFamily.RoboticoBold}" 
+                Text="{Binding Author, Mode=OneWay}" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"
+                       TextColor="Black" HorizontalOptions="FillAndExpand">
+                        <Label.FontSize>
+                            <OnPlatform Android="18" iOS="16"/>
+                        </Label.FontSize>
+                    </Label>
+
+                    <Label
+                FontFamily="{StaticResource Key=RoboticoLight}" 
+                Text="{Binding AuthorUsername, Mode=OneWay}"
+                       TextColor="Black">
+                        <Label.FontSize>
+                            <OnPlatform Android="16" iOS="14"/>
+                        </Label.FontSize>
+                    </Label>
+                </StackLayout>
+
+                <materialControls:MaterialButton TextColor="LightGray" BorderColor="LightGray" BackgroundColor="{StaticResource Key=DarkTheme.Background}"
+                                                 Command="{Binding IPlaceNewPackman, Mode=OneWay}" Clicked="CloseNavigationDrawer"                   
+                                                 Text="PLACE" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"
+                                                 HeightRequest="50"/>
+
+
+                <materialControls:MaterialButton TextColor="LightGray" BorderColor="LightGray" BackgroundColor="{StaticResource Key=DarkTheme.Background}"
+                                                 Command="{Binding IChangeProfilePicture, Mode=OneWay}"                   
+                                                 Text="Change Avatar" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"
+                                                 HeightRequest="50"/>
+            </StackLayout>
+        </navigationdrawer:SfNavigationDrawer.DrawerContentView>
+    </navigationdrawer:SfNavigationDrawer>
+</views:BasePage>

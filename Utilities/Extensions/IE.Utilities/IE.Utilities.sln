@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Utilities.Constants", "IE.Utilities.Constants\IE.Utilities.Constants.csproj", "{224EF2F4-0274-49F6-9F40-CD3B46BA1758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Utilities.Collections", "IE.Utilities.Collections\IE.Utilities.Collections.csproj", "{B962C620-58B3-4479-9E8C-FB5E420F3538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Utilities.DataHandlers", "IE.Utilities.DataHandlers\IE.Utilities.DataHandlers.csproj", "{9408DA6E-D8D3-4CE3-A5AC-6F681E628AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Utilities.DH.Models", "IE.Utilities.DH.Models\IE.Utilities.DH.Models.csproj", "{7E6F498C-56BD-4A99-8D39-732EE5D97FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Utilities.Extensions", "IE.Utilities.Extensions\IE.Utilities.Extensions.csproj", "{DF5BEC16-C8A5-4B61-B2CC-3958C03A756D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Utilities.Common", "IE.Utilities.Common\IE.Utilities.Common.csproj", "{CDFA43BB-0ECC-4C4B-9960-AF070FB5C48C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{224EF2F4-0274-49F6-9F40-CD3B46BA1758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224EF2F4-0274-49F6-9F40-CD3B46BA1758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224EF2F4-0274-49F6-9F40-CD3B46BA1758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224EF2F4-0274-49F6-9F40-CD3B46BA1758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B962C620-58B3-4479-9E8C-FB5E420F3538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B962C620-58B3-4479-9E8C-FB5E420F3538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B962C620-58B3-4479-9E8C-FB5E420F3538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B962C620-58B3-4479-9E8C-FB5E420F3538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9408DA6E-D8D3-4CE3-A5AC-6F681E628AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9408DA6E-D8D3-4CE3-A5AC-6F681E628AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9408DA6E-D8D3-4CE3-A5AC-6F681E628AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9408DA6E-D8D3-4CE3-A5AC-6F681E628AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6F498C-56BD-4A99-8D39-732EE5D97FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6F498C-56BD-4A99-8D39-732EE5D97FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6F498C-56BD-4A99-8D39-732EE5D97FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6F498C-56BD-4A99-8D39-732EE5D97FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5BEC16-C8A5-4B61-B2CC-3958C03A756D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5BEC16-C8A5-4B61-B2CC-3958C03A756D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5BEC16-C8A5-4B61-B2CC-3958C03A756D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5BEC16-C8A5-4B61-B2CC-3958C03A756D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFA43BB-0ECC-4C4B-9960-AF070FB5C48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFA43BB-0ECC-4C4B-9960-AF070FB5C48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFA43BB-0ECC-4C4B-9960-AF070FB5C48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFA43BB-0ECC-4C4B-9960-AF070FB5C48C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FF55AB9-018D-4EC8-9558-A23EE294FBF8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dangerchcovich.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IE.Utilities.Collections\\IE.Utilities.Collections.csproj
+		SccProjectName1 = IE.Utilities.Collections
+		SccLocalPath1 = IE.Utilities.Collections
+		SccProjectUniqueName2 = IE.Utilities.Constants\\IE.Utilities.Constants.csproj
+		SccProjectName2 = IE.Utilities.Constants
+		SccLocalPath2 = IE.Utilities.Constants
+		SccProjectUniqueName3 = IE.Utilities.DataHandlers\\IE.Utilities.DataHandlers.csproj
+		SccProjectName3 = IE.Utilities.DataHandlers
+		SccLocalPath3 = IE.Utilities.DataHandlers
+		SccProjectUniqueName4 = IE.Utilities.DH.Models\\IE.Utilities.DH.Models.csproj
+		SccProjectName4 = IE.Utilities.DH.Models
+		SccLocalPath4 = IE.Utilities.DH.Models
+		SccProjectUniqueName5 = IE.Utilities.Extensions\\IE.Utilities.Extensions.csproj
+		SccProjectName5 = IE.Utilities.Extensions
+		SccLocalPath5 = IE.Utilities.Extensions
+		SccProjectUniqueName6 = IE.Utilities.Common\\IE.Utilities.Common.csproj
+		SccProjectName6 = IE.Utilities.Common
+		SccLocalPath6 = IE.Utilities.Common
+	EndGlobalSection
+EndGlobal

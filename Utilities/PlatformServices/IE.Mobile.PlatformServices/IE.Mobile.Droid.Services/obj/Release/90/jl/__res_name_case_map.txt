@@ -1,0 +1,3 @@
+values/strings.xml;values/strings.xml
+raw/facebook_pop.mp3;raw/facebook_pop.mp3
+raw/facebook_sound.mp3;raw/facebook_sound.mp3

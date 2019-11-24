@@ -1,0 +1,11 @@
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\bin\Debug\netstandard2.0\IE.Utilities.DataHandlers.deps.json
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\bin\Debug\netstandard2.0\IE.Utilities.DataHandlers.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\bin\Debug\netstandard2.0\IE.Utilities.DataHandlers.pdb
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\obj\Debug\netstandard2.0\IE.Utilities.DataHandlers.csprojAssemblyReference.cache
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\obj\Debug\netstandard2.0\IE.Utilities.DataHandlers.AssemblyInfoInputs.cache
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\obj\Debug\netstandard2.0\IE.Utilities.DataHandlers.AssemblyInfo.cs
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\obj\Debug\netstandard2.0\IE.Utilities.DataHandlers.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\obj\Debug\netstandard2.0\IE.Utilities.DataHandlers.pdb
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\bin\Debug\netstandard2.0\IE.Utilities.Common.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\bin\Debug\netstandard2.0\IE.Utilities.Common.pdb
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.DataHandlers\obj\Debug\netstandard2.0\IE.Utilities.DataHandlers.csproj.CopyComplete

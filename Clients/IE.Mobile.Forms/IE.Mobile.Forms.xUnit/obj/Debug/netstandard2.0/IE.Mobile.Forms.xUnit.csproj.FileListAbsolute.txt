@@ -1,0 +1,4 @@
+C:\Alexander\IE\Mobile\Clients\IE.Mobile.Forms\IE.Mobile.Forms.xUnit\bin\Debug\netstandard2.0\IE.Mobile.Forms.xUnit.deps.json
+C:\Alexander\IE\Mobile\Clients\IE.Mobile.Forms\IE.Mobile.Forms.xUnit\bin\Debug\netstandard2.0\IE.Mobile.Forms.xUnit.dll
+C:\Alexander\IE\Mobile\Clients\IE.Mobile.Forms\IE.Mobile.Forms.xUnit\obj\Debug\netstandard2.0\IE.Mobile.Forms.xUnit.AssemblyInfoInputs.cache
+C:\Alexander\IE\Mobile\Clients\IE.Mobile.Forms\IE.Mobile.Forms.xUnit\obj\Debug\netstandard2.0\IE.Mobile.Forms.xUnit.AssemblyInfo.cs

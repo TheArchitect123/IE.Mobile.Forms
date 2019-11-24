@@ -3,3 +3,8 @@
 ################################################################################
 
 /Clients/IE.Mobile.Forms/IE.Mobile.Forms/IE.Mobile.Forms/bin
+/Clients/IE.Mobile.Forms/IE.Mobile.Forms/IE.Mobile.Forms.Android/bin
+/Clients/IE.Mobile.Forms/IE.Mobile.Forms/IE.Mobile.Forms.Android/obj
+/Clients/IE.Mobile.Forms/IE.Mobile.Forms/IE.Mobile.Forms.UWP/obj
+/Clients/IE.Mobile.Forms/IE.Mobile.Forms/IE.Mobile.Forms.UWP/bin/x86/Debug
+/Clients/IE.Mobile.Forms/IE.Mobile.Forms/IE.Mobile.Forms/obj

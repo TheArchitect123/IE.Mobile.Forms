@@ -1,0 +1,12 @@
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\bin\Debug\netstandard2.0\IE.Utilities.Extensions.deps.json
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\bin\Debug\netstandard2.0\IE.Utilities.Extensions.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\obj\Debug\netstandard2.0\IE.Utilities.Extensions.csprojAssemblyReference.cache
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\obj\Debug\netstandard2.0\IE.Utilities.Extensions.AssemblyInfoInputs.cache
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\obj\Debug\netstandard2.0\IE.Utilities.Extensions.AssemblyInfo.cs
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\bin\Debug\netstandard2.0\IE.Utilities.Extensions.pdb
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\bin\Debug\netstandard2.0\IE.Utilities.Common.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\bin\Debug\netstandard2.0\IE.Utilities.Common.pdb
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\obj\Debug\netstandard2.0\IE.Utilities.Extensions.csproj.CopyComplete
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\obj\Debug\netstandard2.0\IE.Utilities.Extensions.dll
+C:\Alexander\IE\Mobile\Utilities\Extensions\IE.Utilities\IE.Utilities.Extensions\obj\Debug\netstandard2.0\IE.Utilities.Extensions.pdb

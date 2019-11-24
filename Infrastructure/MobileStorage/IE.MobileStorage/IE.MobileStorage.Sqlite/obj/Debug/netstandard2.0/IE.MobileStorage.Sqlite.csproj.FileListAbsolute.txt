@@ -1,0 +1,11 @@
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\bin\Debug\netstandard2.0\IE.MobileStorage.Sqlite.deps.json
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\bin\Debug\netstandard2.0\IE.MobileStorage.Sqlite.dll
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\bin\Debug\netstandard2.0\IE.MobileStorage.Sqlite.pdb
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\bin\Debug\netstandard2.0\IE.MobileStorage.Models.dll
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\bin\Debug\netstandard2.0\IE.MobileStorage.Models.pdb
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\obj\Debug\netstandard2.0\IE.MobileStorage.Sqlite.csprojAssemblyReference.cache
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\obj\Debug\netstandard2.0\IE.MobileStorage.Sqlite.AssemblyInfoInputs.cache
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\obj\Debug\netstandard2.0\IE.MobileStorage.Sqlite.AssemblyInfo.cs
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\obj\Debug\netstandard2.0\IE.MobileStorage.Sqlite.csproj.CopyComplete
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\obj\Debug\netstandard2.0\IE.MobileStorage.Sqlite.dll
+C:\Alexander\IE\Mobile\Infrastructure\MobileStorage\IE.MobileStorage\IE.MobileStorage.Sqlite\obj\Debug\netstandard2.0\IE.MobileStorage.Sqlite.pdb
