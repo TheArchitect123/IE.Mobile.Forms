@@ -3,7 +3,7 @@ Welcome to Packman, Created by Dan Gerchcovich.
 This is part of a project used for assessing my expertise. 
 It's a Xamarin Forms project that simulates packman. It works on iOS, Android and UWP. 
 
-Technical Details: 
+Technical Aspects (All Custom made): 
 1. Utility Libraries and frameworks used for extending linq operations, primitive types & TPL. There are also extensions for encryption using SHA-512 algorithm
 I've also added a few compression API using .Net's Gzip.
 
